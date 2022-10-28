@@ -1,6 +1,7 @@
 body{
     margin: 0;
     background-color: rgb(196, 196, 196);
+    
 }
 
 h1 {
@@ -53,8 +54,44 @@ section{
     box-shadow: 0rem 0rem 1rem;
 }
 
+.aside__derecha{position: fixed;
+                background-color: white;
+                top: 19rem;
+                left: 80rem;
+                max-width: 20rem;
+                border: 0.4rem black double;
+                padding: 0;
+                bottom: 10rem;
+                
+}
 
+.aside__izquierda{position: fixed;
+    background-color: white;
+    top: 19rem;
+    right: 80rem;
+    max-width: 20rem;
+    border: 0.4rem black double;
+    padding: 0;
+    bottom: 10rem;
+}
 
+footer{
+    background-color: black;
+    padding-bottom: 4rem;
+   
+}
 
+.address__titulo{
+    color: white;
+    text-align: center;
+    padding: 1rem 0rem;
+}
 
-
+.address__link{
+    float: left;
+    width: 25%;
+    background-color: black;
+    list-style-type: none;
+    text-align: center;
+    padding-bottom: 2rem;
+}
