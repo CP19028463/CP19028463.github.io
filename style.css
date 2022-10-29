@@ -4,6 +4,10 @@ body{
     
 }
 
+header{
+    margin-bottom: 6rem;
+}
+
 h1 {
     background-color: black;
     color: white;
@@ -15,10 +19,12 @@ h1 {
     font-size: 2.4rem;
 }
 
+
 .nav__barra{ 
     padding: 0;
     list-style: none;
-    margin: 0;  
+    margin:0 
+    
 }
 
 .nav__secciones{
@@ -29,69 +35,88 @@ h1 {
     transition: background-color 0.4s ease;
     border-bottom: 0.1rem black solid;
     background-color: white;
+    
 }
+
 .nav__secciones:hover{  
     background-color: black;
     color: white;
 }
 
-section{
-    max-width: 50rem ;
-    margin: 0 auto;
-    padding-top: 3.3rem;
-}
-
 .section__post{
-    border: 0.4rem black double;
-    margin: 2rem;
+    border: 0.5rem black double;
+    margin: 1%;
     text-align: center;
     padding: 2rem;
     background-color: white;
     transition: box-shadow 0.5s ease;
+    max-width: 60%;
+    box-sizing: border-box;
+    
 }
 
 .section__post:hover{
     box-shadow: 0rem 0rem 1rem;
 }
 
-.aside__derecha{position: fixed;
-                background-color: white;
-                top: 19rem;
-                left: 80rem;
-                max-width: 20rem;
-                border: 0.4rem black double;
-                padding: 0;
-                bottom: 10rem;
-                
-}
-
-.aside__izquierda{position: fixed;
+aside{
+    float: right;
+    position: sticky;
+    top: 0;
+    max-width: 37%;
+    padding: 1rem;
     background-color: white;
-    top: 19rem;
-    right: 80rem;
-    max-width: 20rem;
-    border: 0.4rem black double;
-    padding: 0;
-    bottom: 10rem;
+    box-sizing:border-box;
+    border: 0.5rem black double;
+    margin-right: 1%;
+    max-height:fit-content ;
+    
 }
 
 footer{
     background-color: black;
-    padding-bottom: 4rem;
-   
+    margin-top: 3rem;
 }
 
 .address__titulo{
     color: white;
     text-align: center;
-    padding: 1rem 0rem;
+    font-size: 2rem;
+    font-style: normal;
+    padding: 1rem;
 }
 
 .address__link{
     float: left;
-    width: 25%;
+    width: 23%;
     background-color: black;
     list-style-type: none;
     text-align: center;
     padding-bottom: 2rem;
+    font-size: 1.5rem;
+    
+}
+
+
+.footer__linktop{
+    display: block;
+    text-align: center;
+    width: 10rem;
+    margin: 0rem auto;
+    padding:1rem;
+    
+    
+    
+}
+
+a{text-decoration: none;
+    font-style: normal;
+}
+
+a:link{
+    color: blue;
+}
+a:visited{color: white;}
+a:hover{
+    color: gold;
 }
