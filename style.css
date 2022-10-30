@@ -8,7 +8,7 @@ header{
     margin-bottom: 6rem;
 }
 
-h1 {
+#titulo {
     background-color: black;
     color: white;
     margin: 0;
@@ -19,12 +19,10 @@ h1 {
     font-size: 2.4rem;
 }
 
-
 .nav__barra{ 
     padding: 0;
     list-style: none;
     margin:0 
-    
 }
 
 .nav__secciones{
@@ -35,7 +33,6 @@ h1 {
     transition: background-color 0.4s ease;
     border-bottom: 0.1rem black solid;
     background-color: white;
-    
 }
 
 .nav__secciones:hover{  
@@ -59,7 +56,7 @@ h1 {
     box-shadow: 0rem 0rem 1rem;
 }
 
-aside{
+.section__aside{
     float: right;
     position: sticky;
     top: 0;
@@ -105,17 +102,17 @@ footer{
     padding:1rem;
 }
 
-a{
+.footer__link{
     text-decoration: none;
     font-style: normal;
 }
 
-a:link{
+.footer__link:link{
     color: blue;
 }
-a:visited{
+.footer__link:visited{
     color: white;
 }
-a:hover{
+.footer__link:hover{
     color: gold;
 }
