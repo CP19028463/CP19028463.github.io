@@ -131,3 +131,8 @@ footer{
     background-size: cover;
  
 }
+
+span {
+    color: rebeccapurple unset;
+    text-decoration: underline;
+}
