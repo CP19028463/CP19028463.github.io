@@ -118,21 +118,18 @@ footer{
     color: gold;
 }
 
-
-.section__incomplete{ 
-    outline: 0.5rem black double; 
-    margin: 0 auto; 
-    background-color: white; 
-    transition: box-shadow 0.5s ease; 
-    width: 50%; 
-    padding: 10rem; 
-    box-sizing: border-box; 
-    background-image: url(https://th.bing.com/th/id/R.1d54ab2fab8522d85837717c2213026d?rik=TY6J3z1mR%2fFp9g&pid=ImgRaw&r=0&sres=1&sresct=1); 
-    background-size: cover;
- 
+.section__post-nav{
+    border: 0.5rem black double;
+    margin: 1rem auto;
+    text-align: center;
+    padding: 2rem;
+    background-color: white;
+    transition: box-shadow 0.5s ease;
+    max-width: 60%;
+    box-sizing: border-box;
+    
 }
 
-span {
-    color: rebeccapurple unset;
-    text-decoration: underline;
+.section__post-nav:hover{
+    box-shadow: 0rem 0rem 1rem;
 }
