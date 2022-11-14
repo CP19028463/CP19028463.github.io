@@ -10,7 +10,7 @@ body{
     height: 100vh;
     grid-template-rows: 10fr 4fr 60fr 8fr ;
     grid-template-columns: 5fr 20fr 20fr 40fr 40fr 5fr;
-    /* gap: 1rem */
+    
     
         
 }
@@ -122,6 +122,7 @@ body{
 .grid__footer{
     background-color: #000 ;
     grid-column: 1/ span 6;
+    
 }
 
 
@@ -162,6 +163,8 @@ body{
     text-align: center;
     padding: 0.5rem;
     transition: background-color 0.4s ease ;
+    
+    
 }
 
 .footer__nav:hover{
@@ -172,10 +175,12 @@ body{
 .footer__nav--a{
     color: #48e;
     text-decoration: none;
+    
+    
 }
 
 
-@media screen and (max-width:800px) 
+@media screen and (max-width:1000px) 
 
 {
    .grid__section{
@@ -186,6 +191,12 @@ body{
    .grid__aside {
     grid-column: 1 / span 6;
    }
+
+
+   .grid__footer{
+    grid-row: 5/6;
+   }
+
 
 
 
